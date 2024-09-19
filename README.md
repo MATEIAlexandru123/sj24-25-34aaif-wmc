@@ -1,1 +1,3 @@
-# sj24-25-34aaif-wmc
+# WMC Materialien 3AAIF WS 2425
+
+Willkommen zur Webporgramierung!
