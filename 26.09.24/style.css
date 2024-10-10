@@ -1,0 +1,12 @@
+.titel{
+    text-align: center;
+    
+}
+body{
+    border-width: 2px;
+    border-color: black;
+    border-radius: 2px;
+}
+img{
+    float: right;
+}
