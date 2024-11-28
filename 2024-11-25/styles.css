@@ -1,0 +1,121 @@
+/* Allgemeines Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #00ad6a;
+    padding: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+header nav ul li a.active {
+    color: #000;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0f7fa;
+}
+
+.hero h1 span {
+    color: #00ad6a;
+}
+
+.pricing {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.plan {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plan h2,
+.plan h3 {
+    color: #00ad6a;
+}
+
+.plan.recommended {
+    border-color: #00ad6a;
+}
+
+.plan button {
+    background-color: #00ad6a;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.plan button:hover {
+    background-color: #00ad6a;
+}
+
+.faq h2 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer {
+    background-color: #00ad6a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
